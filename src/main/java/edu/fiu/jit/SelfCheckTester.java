@@ -29,7 +29,7 @@ public class SelfCheckTester {
 	public void test() {
 		// Change the following line after "new"
 		// To create an instance of YOUR main class
-		GenericComponent testTarget = new Freenove4WDSmartCarKit();
+		GenericComponent testTarget = new MainChassis();
 		assertNotEquals(testTarget.getComponentName(), "Template main component");
 		try {
 			assertTrue(checkComponents(testTarget, testTarget.getSubComponents()));			
